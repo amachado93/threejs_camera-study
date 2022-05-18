@@ -8,11 +8,27 @@
             body {
                 overflow: hidden;
                 margin: 0px;
+                background-color: black;
+            }
+            p {
+                color: grey;
+            }
+            .c {
+                width: 200px;
+                height: 200px;
             }
         </style>
     </head>
 
     <body>
+        <canvas id="c1" class="c"></canvas>
+        <p>Perspective Camera</p>
+        <canvas id="c2" class="c"></canvas>
+        <p>Orthographic Top</p>
+        <canvas id="c3" class="c"></canvas>
+        <p>Orthographic Right</p>
+        <canvas id="c4" class="c"></canvas>
+        <p>Orthographic Front</p>
         <script type="module" src="bundle.js"></script>
     </body>
 </html>
